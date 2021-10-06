@@ -1,0 +1,58 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.6245",
+   "Default View_TopLeft":"-1174,-1161",
+   "ExpandedHierarchyInLayout":"/SYSTEM|/SYSTEM/gcd_top",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port port-id_ack -pg 1 -lvl 2 -x -150 -y -1080 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -1000 -y -1070 -defaultsOSRD
+preplace port port-id_req -pg 1 -lvl 0 -x -1000 -y -1030 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x -1000 -y -1050 -defaultsOSRD
+preplace port port-id_s_blue -pg 1 -lvl 2 -x -150 -y -1060 -defaultsOSRD
+preplace port port-id_s_green -pg 1 -lvl 2 -x -150 -y -1040 -defaultsOSRD
+preplace port port-id_s_red -pg 1 -lvl 2 -x -150 -y -1020 -defaultsOSRD
+preplace portBus AB -pg 1 -lvl 0 -x -1000 -y -1010 -defaultsOSRD
+preplace portBus C -pg 1 -lvl 2 -x -150 -y -1000 -defaultsOSRD
+preplace inst SYSTEM -pg 1 -lvl 1 -x -720 -y -1038 -defaultsOSRD
+preplace inst SYSTEM|gcd_top -pg 1 -lvl 1 -x -660 -y -1006 -defaultsOSRD
+preplace inst SYSTEM|gcd_top|debounce -pg 1 -lvl 1 -x -580 -y -996 -defaultsOSRD
+preplace inst SYSTEM|gcd_top|gcd -pg 1 -lvl 1 -x -580 -y -836 -defaultsOSRD
+preplace netloc gcd_top_0_s_green 1 1 1 -190 -1040n
+preplace netloc gcd_top_0_s_blue 1 1 1 -200 -1060n
+preplace netloc gcd_top_0_ack 1 1 1 -210 -1080n
+preplace netloc AB 1 0 1 -980 -1010n
+preplace netloc req 1 0 1 -970 -1030n
+preplace netloc reset 1 0 1 -960 -1050n
+preplace netloc clk 1 0 1 -950 -1070n
+preplace netloc gcd_top_0_C 1 1 1 -170 -1000n
+preplace netloc gcd_top_0_s_red 1 1 1 -180 -1020n
+preplace netloc SYSTEM|clk_0_1 1 0 1 -810 -1038n
+preplace netloc SYSTEM|reset_0_1 1 0 1 -820 -1018n
+preplace netloc SYSTEM|req_0_1 1 0 1 -830 -998n
+preplace netloc SYSTEM|AB_0_1 1 0 1 -840 -978n
+preplace netloc SYSTEM|gcd_top_0_ack 1 1 1 -360 -1048n
+preplace netloc SYSTEM|gcd_top_0_s_blue 1 1 1 -350 -1028n
+preplace netloc SYSTEM|gcd_top_0_s_green 1 1 1 -340 -1008n
+preplace netloc SYSTEM|gcd_top_0_s_red 1 1 1 -330 -988n
+preplace netloc SYSTEM|gcd_top_0_C 1 1 1 -320 -968n
+preplace netloc SYSTEM|gcd_top|clk_1 1 0 1 -690 -1016n
+preplace netloc SYSTEM|gcd_top|reset_1 1 0 1 -700 -996n
+preplace netloc SYSTEM|gcd_top|req_1 1 0 1 N -826
+preplace netloc SYSTEM|gcd_top|AB_1 1 0 1 N -806
+preplace netloc SYSTEM|gcd_top|gcd_0_ack 1 1 1 N -876
+preplace netloc SYSTEM|gcd_top|gcd_0_s_blue 1 1 1 N -856
+preplace netloc SYSTEM|gcd_top|gcd_0_s_green 1 1 1 N -836
+preplace netloc SYSTEM|gcd_top|gcd_0_s_red 1 1 1 N -816
+preplace netloc SYSTEM|gcd_top|gcd_0_C 1 1 1 N -796
+levelinfo -pg 1 -1000 -720 -150
+levelinfo -hier SYSTEM * -660 *
+levelinfo -hier SYSTEM|gcd_top * -580 *
+pagesize -pg 1 -db -bbox -sgen -1110 -1190 -50 200
+pagesize -hier SYSTEM -db -bbox -sgen -870 -1108 -290 -708
+pagesize -hier SYSTEM|gcd_top -db -bbox -sgen -730 -1076 -440 -736
+"
+}
+{
+   "da_clkrst_cnt":"2"
+}

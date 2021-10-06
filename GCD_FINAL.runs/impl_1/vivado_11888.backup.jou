@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Oct  6 21:48:19 2021
+# Process ID: 11888
+# Current directory: C:/Users/Rudolf Fortes/SCHOOL/DoDS_GCD/DoDS_GCD.runs/impl_1
+# Command line: vivado.exe -log gcd_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source gcd_top.tcl -notrace
+# Log file: C:/Users/Rudolf Fortes/SCHOOL/DoDS_GCD/DoDS_GCD.runs/impl_1/gcd_top.vdi
+# Journal file: C:/Users/Rudolf Fortes/SCHOOL/DoDS_GCD/DoDS_GCD.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source gcd_top.tcl -notrace

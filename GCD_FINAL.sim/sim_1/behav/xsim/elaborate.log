@@ -1,0 +1,17 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 7a9c9cf652634be6aa1245dd7b18ac2f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot gcd_tb_behav xil_defaultlib.gcd_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package std.env
+Compiling architecture fsmd of entity xil_defaultlib.gcd [gcd_default]
+Compiling architecture behaviour of entity xil_defaultlib.gcd_tb
+Built simulation snapshot gcd_tb_behav

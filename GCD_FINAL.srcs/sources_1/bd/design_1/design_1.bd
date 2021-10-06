@@ -1,0 +1,394 @@
+{
+    "design": {
+        "design_info": {
+            "boundary_crc": "0x0",
+            "device": "xc7a100tcsg324-1",
+            "gen_directory": "../../../../GCD_FINAL.gen/sources_1/bd/design_1",
+            "name": "design_1",
+            "rev_ctrl_bd_flag": "RevCtrlBdOff",
+            "synth_flow_mode": "Hierarchical",
+            "tool_version": "2021.1"
+        },
+        "design_tree": {
+            "SYSTEM": {
+                "gcd_top": {
+                    "debounce": "",
+                    "gcd": ""
+                }
+            }
+        },
+        "ports": {
+            "AB": {
+                "direction": "I",
+                "left": "15",
+                "right": "0"
+            },
+            "C": {
+                "direction": "O",
+                "left": "15",
+                "right": "0"
+            },
+            "ack": {
+                "direction": "O"
+            },
+            "clk": {
+                "type": "clk",
+                "direction": "I"
+            },
+            "req": {
+                "direction": "I"
+            },
+            "reset": {
+                "type": "rst",
+                "direction": "I"
+            },
+            "s_blue": {
+                "direction": "O"
+            },
+            "s_green": {
+                "direction": "O"
+            },
+            "s_red": {
+                "direction": "O"
+            }
+        },
+        "components": {
+            "SYSTEM": {
+                "ports": {
+                    "clk": {
+                        "type": "clk",
+                        "direction": "I"
+                    },
+                    "reset": {
+                        "type": "rst",
+                        "direction": "I"
+                    },
+                    "req": {
+                        "direction": "I"
+                    },
+                    "AB": {
+                        "direction": "I",
+                        "left": "15",
+                        "right": "0"
+                    },
+                    "ack": {
+                        "direction": "O"
+                    },
+                    "s_blue": {
+                        "direction": "O"
+                    },
+                    "s_green": {
+                        "direction": "O"
+                    },
+                    "s_red": {
+                        "direction": "O"
+                    },
+                    "C": {
+                        "direction": "O",
+                        "left": "15",
+                        "right": "0"
+                    }
+                },
+                "components": {
+                    "gcd_top": {
+                        "ports": {
+                            "clk": {
+                                "type": "clk",
+                                "direction": "I"
+                            },
+                            "reset": {
+                                "type": "rst",
+                                "direction": "I"
+                            },
+                            "req": {
+                                "direction": "I"
+                            },
+                            "AB": {
+                                "direction": "I",
+                                "left": "15",
+                                "right": "0"
+                            },
+                            "ack": {
+                                "direction": "O"
+                            },
+                            "s_blue": {
+                                "direction": "O"
+                            },
+                            "s_green": {
+                                "direction": "O"
+                            },
+                            "s_red": {
+                                "direction": "O"
+                            },
+                            "C": {
+                                "direction": "O",
+                                "left": "15",
+                                "right": "0"
+                            }
+                        },
+                        "components": {
+                            "debounce": {
+                                "vlnv": "xilinx.com:module_ref:debounce:1.0",
+                                "xci_name": "design_1_debounce_0_0",
+                                "xci_path": "ip\\design_1_debounce_0_0\\design_1_debounce_0_0.xci",
+                                "inst_hier_path": "SYSTEM/gcd_top/debounce",
+                                "reference_info": {
+                                    "ref_type": "hdl",
+                                    "ref_name": "debounce",
+                                    "boundary_crc": "0x0"
+                                },
+                                "ports": {
+                                    "clk": {
+                                        "type": "clk",
+                                        "direction": "I",
+                                        "parameters": {
+                                            "ASSOCIATED_RESET": {
+                                                "value": "reset",
+                                                "value_src": "constant"
+                                            }
+                                        }
+                                    },
+                                    "reset": {
+                                        "type": "rst",
+                                        "direction": "I"
+                                    },
+                                    "sw": {
+                                        "direction": "I"
+                                    },
+                                    "db_level": {
+                                        "direction": "O"
+                                    },
+                                    "db_tick": {
+                                        "direction": "O"
+                                    }
+                                }
+                            },
+                            "gcd": {
+                                "vlnv": "xilinx.com:module_ref:gcd:1.0",
+                                "xci_name": "design_1_gcd_0_0",
+                                "xci_path": "ip\\design_1_gcd_0_0\\design_1_gcd_0_0.xci",
+                                "inst_hier_path": "SYSTEM/gcd_top/gcd",
+                                "reference_info": {
+                                    "ref_type": "hdl",
+                                    "ref_name": "gcd",
+                                    "boundary_crc": "0x0"
+                                },
+                                "ports": {
+                                    "clk": {
+                                        "type": "clk",
+                                        "direction": "I",
+                                        "parameters": {
+                                            "ASSOCIATED_RESET": {
+                                                "value": "reset",
+                                                "value_src": "constant"
+                                            }
+                                        }
+                                    },
+                                    "reset": {
+                                        "type": "rst",
+                                        "direction": "I"
+                                    },
+                                    "req": {
+                                        "direction": "I"
+                                    },
+                                    "AB": {
+                                        "direction": "I",
+                                        "left": "15",
+                                        "right": "0"
+                                    },
+                                    "ack": {
+                                        "direction": "O"
+                                    },
+                                    "s_blue": {
+                                        "direction": "O"
+                                    },
+                                    "s_green": {
+                                        "direction": "O"
+                                    },
+                                    "s_red": {
+                                        "direction": "O"
+                                    },
+                                    "C": {
+                                        "direction": "O",
+                                        "left": "15",
+                                        "right": "0"
+                                    }
+                                }
+                            }
+                        },
+                        "nets": {
+                            "AB_1": {
+                                "ports": [
+                                    "AB",
+                                    "gcd/AB"
+                                ]
+                            },
+                            "clk_1": {
+                                "ports": [
+                                    "clk",
+                                    "debounce/clk",
+                                    "gcd/clk"
+                                ]
+                            },
+                            "gcd_0_C": {
+                                "ports": [
+                                    "gcd/C",
+                                    "C"
+                                ]
+                            },
+                            "gcd_0_ack": {
+                                "ports": [
+                                    "gcd/ack",
+                                    "ack"
+                                ]
+                            },
+                            "gcd_0_s_blue": {
+                                "ports": [
+                                    "gcd/s_blue",
+                                    "s_blue"
+                                ]
+                            },
+                            "gcd_0_s_green": {
+                                "ports": [
+                                    "gcd/s_green",
+                                    "s_green"
+                                ]
+                            },
+                            "gcd_0_s_red": {
+                                "ports": [
+                                    "gcd/s_red",
+                                    "s_red"
+                                ]
+                            },
+                            "req_1": {
+                                "ports": [
+                                    "req",
+                                    "gcd/req"
+                                ]
+                            },
+                            "reset_1": {
+                                "ports": [
+                                    "reset",
+                                    "debounce/reset",
+                                    "gcd/reset"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "nets": {
+                    "AB_0_1": {
+                        "ports": [
+                            "AB",
+                            "gcd_top/AB"
+                        ]
+                    },
+                    "clk_0_1": {
+                        "ports": [
+                            "clk",
+                            "gcd_top/clk"
+                        ]
+                    },
+                    "gcd_top_0_C": {
+                        "ports": [
+                            "gcd_top/C",
+                            "C"
+                        ]
+                    },
+                    "gcd_top_0_ack": {
+                        "ports": [
+                            "gcd_top/ack",
+                            "ack"
+                        ]
+                    },
+                    "gcd_top_0_s_blue": {
+                        "ports": [
+                            "gcd_top/s_blue",
+                            "s_blue"
+                        ]
+                    },
+                    "gcd_top_0_s_green": {
+                        "ports": [
+                            "gcd_top/s_green",
+                            "s_green"
+                        ]
+                    },
+                    "gcd_top_0_s_red": {
+                        "ports": [
+                            "gcd_top/s_red",
+                            "s_red"
+                        ]
+                    },
+                    "req_0_1": {
+                        "ports": [
+                            "req",
+                            "gcd_top/req"
+                        ]
+                    },
+                    "reset_0_1": {
+                        "ports": [
+                            "reset",
+                            "gcd_top/reset"
+                        ]
+                    }
+                }
+            }
+        },
+        "nets": {
+            "AB": {
+                "ports": [
+                    "AB",
+                    "SYSTEM/AB"
+                ]
+            },
+            "clk": {
+                "ports": [
+                    "clk",
+                    "SYSTEM/clk"
+                ]
+            },
+            "gcd_top_0_C": {
+                "ports": [
+                    "SYSTEM/C",
+                    "C"
+                ]
+            },
+            "gcd_top_0_ack": {
+                "ports": [
+                    "SYSTEM/ack",
+                    "ack"
+                ]
+            },
+            "gcd_top_0_s_blue": {
+                "ports": [
+                    "SYSTEM/s_blue",
+                    "s_blue"
+                ]
+            },
+            "gcd_top_0_s_green": {
+                "ports": [
+                    "SYSTEM/s_green",
+                    "s_green"
+                ]
+            },
+            "gcd_top_0_s_red": {
+                "ports": [
+                    "SYSTEM/s_red",
+                    "s_red"
+                ]
+            },
+            "req": {
+                "ports": [
+                    "req",
+                    "SYSTEM/req"
+                ]
+            },
+            "reset": {
+                "ports": [
+                    "reset",
+                    "SYSTEM/reset"
+                ]
+            }
+        }
+    }
+}
